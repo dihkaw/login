@@ -10,6 +10,7 @@ AWS_CLIENT_ID=your_client_id          # ID Client AWS
 Jalankan perintah berikut untuk menginstal library yang dibutuhkan:
 ```
 npm install express body-parser aws-sdk dotenv ejs
+npm install -g pm2
 ```
 ## Struktur proyek
 ```
@@ -21,4 +22,9 @@ project/
 ├── app.js
 └── .env
 ```
-
+## Menjalankan aplikasi
+```
+pm2 start app.js
+```
+## Ujicoba aplikasi
+Buka browser dan akses **http://ipaddresserver:3000**
