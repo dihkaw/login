@@ -9,7 +9,7 @@ AWS_CLIENT_ID=your_client_id          # ID Client AWS
 ## Instalasi Dependency
 Jalankan perintah berikut untuk menginstal library yang dibutuhkan:
 ```
-npm install express body-parser aws-sdk dotenv ejs
+npm install express body-parser dotenv ejs @aws-sdk/client-cognito-identity-provider
 npm install -g pm2
 ```
 ## Struktur proyek
